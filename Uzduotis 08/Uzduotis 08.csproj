@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE426A0B-A540-442B-80CB-94633FCAE7EF}</ProjectGuid>
+    <ProjectGuid>{BE6EF78F-0235-457A-8EE3-5DBAF38AF0F2}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Uzduotis_07</RootNamespace>
-    <AssemblyName>Uzduotis 07</AssemblyName>
+    <RootNamespace>Uzduotis_08</RootNamespace>
+    <AssemblyName>Uzduotis 08</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -31,9 +31,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
