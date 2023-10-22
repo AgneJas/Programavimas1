@@ -8,11 +8,16 @@ namespace Uzduotis_02
         {
             string vertikalus = "-------------------";
             string emptyLine = "|                  |";
-            string name = "Martynas";
+            string name = "Agne";
             Console.WriteLine(vertikalus);
             Console.WriteLine(emptyLine);
-
-
+            Console.WriteLine(emptyLine);
+            Console.WriteLine("|   Mano vardas    |");
+            Console.WriteLine("|      " + name + "        |");
+            Console.WriteLine(emptyLine);
+            Console.WriteLine(emptyLine);
+            Console.WriteLine(vertikalus);
+            Console.WriteLine();
         }
     }
 }
