@@ -19,10 +19,6 @@ namespace _01Kintamieji
             float svoris = 8.5f;
             Console.WriteLine("Svoris " + svoris);
 
-
-            string aukstojimokykla = "Vilniaus Universitetas";
-           
-            
             string kursas = "Dieninis";
             Console.WriteLine("Kursas " + kursas);
             string studijosprogramospavadinimas = "Programuotojai";
