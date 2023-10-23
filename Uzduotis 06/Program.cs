@@ -1,18 +1,19 @@
 ﻿using System;
 
-namespace Uzduotis_08
+namespace Uzduotis_06
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
             /*
-             Liepkite vartotojui įvesti bet kokį sveikąjį skaičių. 
-             Išveskite šio skaičiaus daugybos lentelę nuo 1 iki 5. Pvz.: 2 * 1 = 2 … 2 * 5 = 10*/
+             * Išveskite pasirinkto skaičiaus daugybos lentelę. Pvz.: 5 * 0 = 0
+             5 * 1 = 5
+             …
+             5 * 10 = 50
+            */
 
-            Console.WriteLine("Iveskite bet koki sveikaji skaiciu");
-            var skaicius = Convert.ToInt32(Console.ReadLine());
+            int skaicius = 5;
             int daugiklis = 0;
             Console.WriteLine($"Skaiciaus {skaicius} daugybos lentele:");
             Console.WriteLine($"{skaicius} * {daugiklis} = {skaicius * daugiklis++}");
@@ -28,17 +29,15 @@ namespace Uzduotis_08
             Console.WriteLine($"{skaicius} * {daugiklis} = {skaicius * daugiklis++}");
             Console.WriteLine();
 
-
-
-
-
-
-
-
-           /* Liepkite vartotojui įvesti tris skaičius. Į ekraną išveskite šiuos skaičius ir jų vidurkį. Pvz.:
-Įvestų skaičių 4, 5, 8 vidurkis: 5,7.
-Liepkite įvesti tris skaičius. Išveskite įvestus skaičius, jų kvadratus, juos pakeltus trečiuoju laipsniu, taip pat tuos skaičius, padalintus iš dviejų.*/
-           
+            /*
+             Susikurkite sveikojo skaičiaus kintamąjį su dviženklio skaičiaus reikšme. 
+            Išveskite į ekraną šio skaičiaus skaitmenų sandaugą.
+            */
+            int dvizenklisskaicius = 10;
+            int desimtys = dvizenklisskaicius / 10;
+            int vienetai = dvizenklisskaicius % 10;
+            Console.WriteLine($"dvizenklisskaicius: {dvizenklisskaicius}");
+            Console.WriteLine($"Skaitmenu sandauga: {desimtys} * {vienetai} = {desimtys * vienetai}");
 
         }
     }

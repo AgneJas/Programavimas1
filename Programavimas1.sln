@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01Kintamieji", "01Kintamiej
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 kintamieji", "01 kintamieji", "{66C1EF7F-F54C-4AB8-A66C-E6CDD6EDF022}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "isvedimas", "isvedimas", "{71B6D317-53AF-4396-99FC-8577F7816808}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 isvedimas", "02 isvedimas", "{71B6D317-53AF-4396-99FC-8577F7816808}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis 03", "Uzduotis01\Uzduotis 03.csproj", "{EEDB427C-5A6D-4198-AF77-1C3F7F7F0D3C}"
 EndProject
@@ -26,8 +26,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis 07", "Uzduotis 07\Uzduotis 07.csproj", "{FE426A0B-A540-442B-80CB-94633FCAE7EF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis 08", "Uzduotis 08\Uzduotis 08.csproj", "{BE6EF78F-0235-457A-8EE3-5DBAF38AF0F2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uzduotis 09", "Uzduotis 09\Uzduotis 09.csproj", "{8DE9A005-2B3A-4473-B179-E29CC487C8FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,10 +69,6 @@ Global
 		{BE6EF78F-0235-457A-8EE3-5DBAF38AF0F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE6EF78F-0235-457A-8EE3-5DBAF38AF0F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE6EF78F-0235-457A-8EE3-5DBAF38AF0F2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8DE9A005-2B3A-4473-B179-E29CC487C8FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DE9A005-2B3A-4473-B179-E29CC487C8FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DE9A005-2B3A-4473-B179-E29CC487C8FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DE9A005-2B3A-4473-B179-E29CC487C8FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,7 +82,6 @@ Global
 		{6D8924FC-0134-4A76-8233-86851B8BC065} = {71B6D317-53AF-4396-99FC-8577F7816808}
 		{FE426A0B-A540-442B-80CB-94633FCAE7EF} = {9EDE94E6-16C0-4BE3-BFBA-90A3B5B58A1D}
 		{BE6EF78F-0235-457A-8EE3-5DBAF38AF0F2} = {9EDE94E6-16C0-4BE3-BFBA-90A3B5B58A1D}
-		{8DE9A005-2B3A-4473-B179-E29CC487C8FE} = {9EDE94E6-16C0-4BE3-BFBA-90A3B5B58A1D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F7C48253-DC96-46CA-BBD4-CDE72C2D32E9}
