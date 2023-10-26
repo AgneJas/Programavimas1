@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics.Eventing.Reader;
 
 namespace Uzduotis_10
 {
@@ -26,8 +27,8 @@ namespace Uzduotis_10
             Patikrinti, ar skaičius dalinasi iš 4, jei taip - išvesti “taip, dalinasi iš 4”;
             Patikrinti, ar skaičius yra didesnis nei 10, jei taip - išvesti “taip, skaičius yra didesnis už 10”.
             .*/
-              
-                Console.WriteLine("Iveskite bet koki skaiciu");
+
+            Console.WriteLine("Iveskite bet koki skaiciu");
             int skaicius;
             skaicius = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine($"Jus ivedete skaiciu: {skaicius}");
@@ -42,12 +43,12 @@ namespace Uzduotis_10
                 Console.WriteLine("Sveikiname");
             }
 
-            if (skaicius % 2==0)
+            if (skaicius % 2 == 0)
             {
                 Console.WriteLine("Taip, skaicius yra lyginis");
             }
 
-            if (skaicius /4 == 0)
+            if (skaicius / 4 == 0)
             {
                 Console.WriteLine("Taip, dalinasi iš 4");
             }
@@ -74,7 +75,29 @@ namespace Uzduotis_10
                 Console.WriteLine("Valio!!!");
             }
 
-        }
+            /*Liepkite įvesti skaičių.
+            Jei skaičius lyginis, tuomet išveskite šį skaičių bei jo penktą laipsnį.
+            Jei skaičius nesidalina iš 4, tuomet liepkite įvesti antrąjį skaičių. Išveskite abiejų skaičių sumą ir sandaugą.*/
+
+            Console.WriteLine("Iveskite skaiciu");
+            if (skaicius % 2 == 0)
+            {
+                Console.WriteLine("Taip, skaicius yra lyginis");
+                Console.WriteLine($" Skaicius {skaicius} penktuoju laipsniu: {skaicius}^5 = {skaicius * skaicius * skaicius * skaicius * skaicius}");
+                Console.WriteLine();
+            }
+            else
+                Console.WriteLine("");
+
+            /*Jei skaičius nesidalina iš 4, tuomet liepkite įvesti antrąjį skaičių.Išveskite abiejų skaičių sumą ir sandaugą.*/
+
+            ///    NEISIVAIZDUOJU NUO KO PRADETI
+
         }
     }
+
+        }
+
+
+
 
