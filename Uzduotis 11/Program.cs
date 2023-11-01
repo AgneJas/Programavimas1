@@ -35,13 +35,15 @@ namespace Uzduotis_11
                 Console.WriteLine($"Trecias skaičius yra didesnis už pirma");
             else
                 Console.WriteLine($"Trecias skaičius nėra didesnis už pirma");
-
+            Console.WriteLine();
+            
             /*ar pirmi du skaičiai lygūs;*/
             if (number1 == number2)
 
-            Console.WriteLine($"Pirmas ir antras skaiciai yra lygus");
+                Console.WriteLine($"Pirmas ir antras skaiciai yra lygus");
             else
                 Console.WriteLine($"Pirmas ir antras skaiciai nera lygus");
+            Console.WriteLine();
 
             /*Liepkite vartotojui įvesti šios dienos oro temperatūrą, atlikite šiuos patikrinimus:
             ar temperatūra < 0 - išvesti “žiauriai šalta”;
@@ -57,11 +59,31 @@ namespace Uzduotis_11
             Console.WriteLine($"Jus ivedete: {temperatura}");
 
             if (temperatura < 0)
+            {
                 Console.WriteLine($"Ziauriai salta");
-
-
-
-        }
+            }
+            else if (temperatura < 10)
+            {
+                Console.WriteLine("Labai šalta");
+            }
+            else if (temperatura < 20)
+            {
+                Console.WriteLine("Šalta");
+            }
+            else if (temperatura < 30)
+            {
+                Console.WriteLine("Normali temperatūra");
+            }
+            else if (temperatura < 40)
+            {
+                Console.WriteLine("Karšta");
+            }
+            else
+            {
+                Console.WriteLine("Labai karšta");
+            }
         }
     }
+}
+
 
